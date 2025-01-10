@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Kazuki Makino <s23c1131km@s.chibakoudai.jp>
+# SPDX-License-Identifier:BSD-3-Clause
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
