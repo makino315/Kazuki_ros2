@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 
 dir=~
 [ "$1" != "" ] && dir="$1"
