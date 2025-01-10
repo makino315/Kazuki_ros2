@@ -3,6 +3,9 @@
 dir=~
 [ "$1" != "" ] && dir="$1"
 
+sudo apt -y install python3-pip
+pip3 install requests
+
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
