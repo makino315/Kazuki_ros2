@@ -13,6 +13,6 @@ def cb(msg):
 
 
 def main():
-    pub=node.create_subscription(String,"weather_pub",cb,10)
+    pub=node.create_subscription(String,"weather",cb,10)
     rclpy.spin(node)
 

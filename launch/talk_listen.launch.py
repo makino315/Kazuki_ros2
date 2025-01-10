@@ -6,7 +6,7 @@ import launch_ros.actions
 
 def generate_launch_description():
 
-    talker=launch_ros.actions.Node(
+    weather_pub = launch_ros.actions.Node(
        package='mypkg',
        executable='weather_pub',
        )
